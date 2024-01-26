@@ -1,0 +1,103 @@
+body{
+    /* background-color: mediumslateblue; */
+    background-image: linear-gradient(pink, purple, white);
+}
+
+p{
+    color:purple;
+    font-size: 18px;
+    /* margin: 10px; */
+
+}
+
+h1{
+    color: rgb(31, 49, 237);
+    text-decoration:underline;
+    text-align: center; 
+    background-color: rgb(240, 169, 225);
+    box-shadow: 1px 5px;
+}
+
+h2,h3{
+    color:rgb(255, 0, 212);
+    font-family:Arial, sans-serif;
+    font-size: 20px;
+    text-decoration:underline;
+    text-align: center;
+    background-color: rgb(240, 169, 225);
+    text-decoration:underline;
+    box-shadow: 1px 5px;
+}
+nav{
+    background-color: rgb(245, 238, 243);
+    height: 40px;
+    display:flex;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+nav>a{
+    color: rgb(233, 91, 14);
+    text-decoration:none;
+    font-size: 20px;
+    margin-top: 20;
+    /* margin-left:10%; */
+
+}
+nav>a:hover{
+    color:rgb(102, 0, 51)
+}
+
+.purple-text{
+    color:purple
+}
+.underlined-text{
+    text-decoration: underlining;
+}
+.content{
+    background-color: white;
+    min-height:100vh;
+    width:70%;
+    margin:0 auto;
+    padding: 10px;
+}
+
+#info-section{
+    color:blue;
+    font-size:28px;
+}
+
+h4{
+    color:rgb(255, 0, 212);
+    font-family:Arial, sans-serif;
+    font-size: 20px;
+    /* text-align: center; */
+    text-decoration:underline;
+    position: relative;
+    animation: mymove 5s ease-in;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+@keyframes mymove{
+    from{left: 0px;}
+    to{left: 200px;}
+}
+
+.list ul{
+    font-family:Arial, sans-serif;
+    font-size: 18px;
+    column-count: 2;
+    column-fill: inherit;
+    text-align: left;
+    background-color: rgb(233, 238, 238);
+    block-size: auto;
+} 
+
+li.first-bullet{
+    color:gold;
+}
+li.second-bullet{
+    color:silver;
+}
+li.third-bullet{
+    color:brown;
+}

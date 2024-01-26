@@ -1,0 +1,109 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zoo Customer Feedback Form</title>
+
+        <h1> Fish Frenzy Exhibit Survey</h1>
+        <p>Thankyou for your visit today.We would appreciate your feedback on our new Fish Frenzy exhibit.</p>
+        
+        <form>
+            <p>Please answer the following questions:</p>
+            <label for="fname">First name:</label>
+            <input type = "text" name="first_name"><br>
+            <label for="lname">Last name:</label>
+            <input type = "text" name="last_name"><br>
+            
+            <div>
+                <label for="factor">Was the Fish Frenzy exhibit a factor in your decision to visit today?</label>
+                <select id="factor" name="factor">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="maybe">Maybe</option>
+                </select>
+            </div>
+            <div>
+                <label for ="factor">How did you hear about the Fish Frenzy exhibit?</label> <br>
+            <input type = "checkbox" name="question1"> Website<br>
+            <input type = "checkbox" name="question1"> Social media<br>
+            <input type = "checkbox" name="question1">Flyer<br>
+            <input type = "checkbox" name="question1">Others<br>
+
+            </div>
+
+            <div>
+                <label for="enjoy">Did you enjoy the Fish Frenzy exhibit?</label>
+                <input type="radio" id="enjoy-yes" name="enjoy" value="yes">
+                <label for="enjoy-yes">Yes</label>
+                <input type="radio" id="enjoy-no" name="enjoy" value="no">
+                <label for="enjoy-no">No</label>
+                <input type="radio" id="enjoy-somewhat" name="enjoy" value="somewhat">
+                <label for="enjoy-somewhat">Somewhat</label>
+            </div>
+
+            <div>
+            <label for="like">What did you enjoy about the Fish Frenzy exhibit?</label><br>
+            <textarea id="like" name="like" rows="4" cols="40" placeholder="e.g. the variety of fish, the colors, the sounds,the lightings etc."></textarea>
+            <!-- a multiline text  input control(textarea), teh size of text area is specified by cols and rows-->
+            </div>
+            
+            <div>
+            <label for="improve">How could we improve the Fish Frenzy exhibit?</label><br>
+            <textarea id="improve" name="improve" rows="4" cols="40" placeholder="e.g. more information, better lighting, larger tanks, etc."></textarea>
+            </div>
+
+            <div>
+            <p>Please rate the following aspects of the Fish Frenzy exhibit on a scale of 1 (poor) to 5 (excellent):</p>
+            <label for="displays">Displays</label>
+            <input type = "checkbox" name="Option1"> 1
+            <input type = "checkbox" name="Option2"> 2
+            <input type = "checkbox" name="Option3"> 3
+            <input type = "checkbox" name="Option4"> 4
+            <input type = "checkbox" name="Option5"> 5<br>
+
+            <label for="information">Information</label>
+            <input type = "checkbox" name="Option1"> 1
+            <input type = "checkbox" name="Option2"> 2
+            <input type = "checkbox" name="Option3"> 3
+            <input type = "checkbox" name="Option4"> 4
+            <input type = "checkbox" name="Option5"> 5<br>
+
+            
+            <label for="habitats">Habitats/Tanks</label>
+            <input type = "checkbox" name="Option1"> 1
+            <input type = "checkbox" name="Option2"> 2
+            <input type = "checkbox" name="Option3"> 3
+            <input type = "checkbox" name="Option4"> 4
+            <input type = "checkbox" name="Option5"> 5<br>
+            
+            <label for="layout">Layout</label>
+            <input type = "checkbox" name="Option1"> 1
+            <input type = "checkbox" name="Option2"> 2
+            <input type = "checkbox" name="Option3"> 3
+            <input type = "checkbox" name="Option4"> 4
+            <input type = "checkbox" name="Option5"> 5<br>
+            
+            <label for="accessibility">Accessibility</label>
+            <input type = "checkbox" name="Option1"> 1
+            <input type = "checkbox" name="Option2"> 2
+            <input type = "checkbox" name="Option3"> 3
+            <input type = "checkbox" name="Option4"> 4
+            <input type = "checkbox" name="Option5"> 5<br>
+
+            <label for="merchandise">Merchandise</label>
+            <input type = "checkbox" name="Option1"> 1
+            <input type = "checkbox" name="Option2"> 2
+            <input type = "checkbox" name="Option3"> 3
+            <input type = "checkbox" name="Option4"> 4
+            <input type = "checkbox" name="Option5"> 5<br>
+                </div>
+                <div>
+                <input type="submit" value="Submit">
+                </div>
+            </form>
+    </head>
+    <body>
+        
+    </body>
+    </html>
