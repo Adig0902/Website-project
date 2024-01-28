@@ -1,13 +1,10 @@
 body{
-    /* background-color: mediumslateblue; */
     background-image: linear-gradient(pink, purple, white);
 }
 
 p{
     color:purple;
     font-size: 18px;
-    /* margin: 10px; */
-
 }
 
 h1{
@@ -40,8 +37,6 @@ nav>a{
     text-decoration:none;
     font-size: 20px;
     margin-top: 20;
-    /* margin-left:10%; */
-
 }
 nav>a:hover{
     color:rgb(102, 0, 51)
@@ -87,9 +82,9 @@ h4{
     font-size: 18px;
     column-count: 2;
     column-fill: inherit;
-    text-align: left;
+    text-align: left; 
     background-color: rgb(233, 238, 238);
-    block-size: auto;
+    block-size: auto; 
 } 
 
 li.first-bullet{
@@ -100,4 +95,17 @@ li.second-bullet{
 }
 li.third-bullet{
     color:brown;
+}
+
+/* .row{
+    display:flex;
+    width:100%;
+    justify-content: space-evenly;
+} */
+.footer {
+    background-color: #f2dbf5;
+    text-align: center;
+    padding: 10px;
+    color:purple;
+    font-size: 20px;
 }
